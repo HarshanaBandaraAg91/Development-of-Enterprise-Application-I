@@ -72,7 +72,9 @@ public class loginControl extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        String username = request.getParameter("uname");
+        String password = request.getParameter("upass");
+       // processRequest(request, response);
     }
 
     /**

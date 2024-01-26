@@ -72,8 +72,13 @@ public class loginControl extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String username = request.getParameter("uname");
-        String password = request.getParameter("upass");
+        String name = request.getParameter("uname");
+        String psw = request.getParameter("upass");
+        
+        if(name.equals("harshana")&&psw.equals("741")){
+            response.sendRedirect("Welcome.jsp");
+        }else
+            response.sendRedirect("Invalid.jsp");
        // processRequest(request, response);
     }
 

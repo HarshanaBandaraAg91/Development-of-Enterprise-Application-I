@@ -32,8 +32,8 @@
                     <td><input type="password" name="upass" placeholder="Enter password"></td>
                 </tr>
                  <tr>
-                     <td><input type="submit" name="Submit" class="button"></td>
-                    <td><input type="reset" name="Cansel" class="button"></td>
+                     <td><input type="submit" value="Login" class="button"></td>
+                    <td><input type="reset" value="Cansel" class="button"></td>
                 </tr>
             </table>
             </center>

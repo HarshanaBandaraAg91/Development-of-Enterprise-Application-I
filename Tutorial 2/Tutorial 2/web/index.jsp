@@ -14,26 +14,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             h1{text-align: center}
-            .button{background: green}
+            .button{background: green;border-radius: 6px}
+            .buttons{background: red;border-radius: 6px}
+            body{background-color: blueviolet}
         </style>
     </head>
     <body>
         <h1>Login Page</h1>
         <br>
         <br>
-        <form action="loginControl" method="POST"><center>
+        <form action="Control" method="POST"><center>
             <table>
                 <tr>
                     <td>Username</td>
                     <td><input type="text" name="uname" placeholder="Type username"></td>
                 </tr>
+                <tr></tr>
                 <tr>
                     <td>Password</td>
                     <td><input type="password" name="upass" placeholder="Enter password"></td>
                 </tr>
                  <tr>
                      <td><input type="submit" value="Login" class="button"></td>
-                    <td><input type="reset" value="Cansel" class="button"></td>
+                    <td><input type="reset" value="Cansel" class="buttons"></td>
                 </tr>
             </table>
             </center>
